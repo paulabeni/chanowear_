@@ -1,0 +1,173 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;   
+
+}
+
+header {       
+    margin-top: 30px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+      
+
+}
+.header .logo img {
+    height: 150px;
+    width: auto;   
+} 
+
+
+
+
+
+
+
+.linksNav li  {
+    color: black;       
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    display: inline;
+    margin: 0 15px; 
+}
+
+ header .container {
+    width: 300px;
+}
+
+.botonbuscar {
+    background-color: rgb(43, 58, 92);
+    width: 75px;
+    height: 45px;
+    opacity: 90%;
+    border-radius: 8px;
+    font-family: "Manrope", sans-serif;
+}
+
+
+input {
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    background-color:gainsboro ;
+    opacity: 90%;
+    border-color: rgb(56, 56, 97);
+
+}
+.sectorboton .botoncomprar {
+  
+    
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+}
+.botoncomprar {
+    font-family: "Manrope", sans-serif, bold;
+    font-size: 40px;
+    margin-left: 300px;      
+    color: black;
+    width: 200px;
+    height: 60px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(221, 221, 221, 0.959), 0 6px 20px 0 rgba(224, 218, 218, 0.972);
+    
+  }
+  
+body {
+    background-image: url(pexels-gabby-k-6311679.jpg);
+    
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;     
+    font-family: "Manrope", sans-serif;
+  
+    
+}
+
+.nuevacoleccion img{
+    width: 100%;
+    height: 600px;
+    margin-bottom: 40px;
+}
+.nuevacoleccion h1{
+    color: black;
+    margin-top: 50px;
+    font-family: "Manrope", sans-serif;
+    text-align: center;
+}
+h2, h3{
+    color: white;
+    
+    font-size: 35px;
+    text-align: center;
+    margin: 40px;
+    background-color  :black;
+    
+}
+
+  
+  .tendencia {
+    width: 100%;      
+    display: flex;
+    justify-content: center;    
+ }
+
+.items-tendencia img {
+      
+    width: 300px;
+    height: 350px;
+    margin: 20px;  
+    border-radius: 10px;
+
+}
+ .categorias{
+    display: flex;
+  justify-content: center;
+    width: 100%;
+
+}
+ .categorias .items-categorias img{
+   
+    justify-content: center;    
+    width: 300px;
+    height: 350px;
+    margin: 20px;  
+    border-radius: 10px;
+    margin-bottom: 50px;
+ }
+
+
+
+footer{
+    
+    background-color: rgb(43, 58, 92);        
+    width:100%;
+    height:100px;
+    position: absolute;  
+    justify-content: center;   
+}
+footer .info{
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .info li {
+    font-family: "Manrope", sans-serif;
+    margin: 0px 25px;
+    font-size: 25px;
+    color: antiquewhite;   
+    display: inline;
+    justify-content: space-between
+    
+    
+}
