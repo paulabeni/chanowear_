@@ -34,14 +34,28 @@ header {
     width: 300px;
 }
 
-.botonbuscar, .iniciosesion {
+.botonbuscar  {
     background-color: rgb(43, 58, 92);
+    color: aliceblue;
     width: 75px;
     height: 45px;
     opacity: 90%;
     border-radius: 8px;
     font-family: "Manrope", sans-serif;
+    font-size: 12px;
 }
+#iniciosesion , #botonapi  {
+    font-size: 15px;
+    background-color: rgb(43, 58, 92);
+    color: aliceblue;
+    width: 120px;
+    height: 45px;
+    opacity: 90%;
+    border-radius: 8px;
+    font-family: "Manrope", sans-serif;
+}
+
+
 
 
 input {
