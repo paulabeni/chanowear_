@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    
+}
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    justify-content: center;   
+    background-image: url(pexels-eliazanrosso-1923109.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    justify-content: center;    
+    padding:50px;
+    margin: 20px;   
+    background-color: azure;
+    box-shadow: 0 0 20px black;
+
+}
+form h1 {
+    color: rgb(43, 58, 92);
+    font-size: 30px;
+    margin: 30px; 
+    text-align: center;
+    font-family: "Manrope", sans-serif;
+    
+}
+
+input{
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 1px solidrgb(43, 58, 92);
+    font-family: "Manrope", sans-serif;
+    border-radius: 10px;
+   
+
+}
+.btn {
+    background-color: rgb(43, 58, 92);
+    font-family: "Manrope", sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+
+}
